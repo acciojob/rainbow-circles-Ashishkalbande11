@@ -1,53 +1,53 @@
-/*  your css code here. If applicable */
-#six{
-	height: 300px;
-	width: 300px;
+#outer{
+	height:300px;
+	width:300px;
 	background-color: #ff0000;
-	margin: auto;
 	display:flex;
 	justify-content:center;
-	/* align-items: center;? */
-}
-#five{
-	height: 250px;
-	width: 250px;
-	background-color:#ffa500;
-	margin: auto;
-	display:flex;
-	justify-content:center;
-}
-
-
-#four{
-	height: 200px;
-	width: 200px;
-	background-color: #ffff00;
-	margin: auto;
-	display:flex;
-	justify-content:center;
-}
-#three{
-	height: 150px;
-	width: 150px;
-	background-color: #008000;
-	margin: auto;
-	display:flex;
-	justify-content:center;
-}
-#two{
-	height: 100px;
-	width: 100px;
-	background-color: #0000ff;
-	margin: auto;
-	display:flex;
-	justify-content:center;
-}
-#one{
-	height: 50px;
-	width: 50px;
-	background-color: #800080;
-	margin:auto;
+	align-items:center;
 	
+}
+
+
+#outer-one{
+	height:250px;
+	width:250px;
+	background-color: #ffa500;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#middle-one{
+	height:200px;
+	width:200px;
+	background-color: #ffff00;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+#middle{
+	height:150px;
+	width:150px;
+	background-color: #008000;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+#inner{
+	height:100px;
+	width:100px;
+	background-color: #0000ff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+#inner-one{
+	height:50px;
+	width:50px;
+	background-color: #800080;
 }
 .common{
 	border-radius: 50%;
